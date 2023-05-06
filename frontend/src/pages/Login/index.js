@@ -20,8 +20,8 @@ const Copyright = () => {
 	return (
 		<Typography variant="body2" color="secondary" align="center">
 			{"Copyright "}
- 			<Link color="secondary" href="https://aticket.com.br">
- 				aTicket.com.br
+ 			<Link color="secondary" href="app.trudes.me">
+ 				Trudes Empreendimentos
  			</Link>{" "}
  			{new Date().getFullYear()}
  			{"."}
@@ -148,7 +148,7 @@ const Login = () => {
 			</div>
 			
 			
-			<Box mt={8}>{ <Copyright /> }</Box>
+			<Box mt={8} style="color:white">{ <Copyright /> }</Box>
 		</Container>
 		</div>
 	);
