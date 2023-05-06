@@ -148,7 +148,7 @@ const Login = () => {
 			</div>
 			
 			
-			<Box mt={8} style="color:white">{ <Copyright /> }</Box>
+			<Box mt={8} >{ <Copyright /> }</Box>
 		</Container>
 		</div>
 	);
