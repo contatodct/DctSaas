@@ -21,8 +21,8 @@ const Copyright = () => {
 	return (
 		<Typography variant="body2" color="textSecondary" align="center">
 			{"Copyright "}
- 			<Link color="inherit" href="https://aticket.com.br">
- 				aTicket.com.br
+ 			<Link color="inherit" href="">
+ 				Trudes Empreendimentos
  			</Link>{" "}
  			{new Date().getFullYear()}
  			{"."}
