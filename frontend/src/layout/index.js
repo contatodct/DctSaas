@@ -290,7 +290,7 @@ const LoggedInLayout = ({ children }) => {
           >
             {greaterThenSm ? (
               <>
-                Olá <b>{user.name}</b>, Seja bem-vindo à plataforma <b>Trudes Ticket</b>!
+                Olá <b>{user.name}</b>, Seja bem-vindo à plataforma <b>DCT Ticket</b>!
               </>
             ) : (
               user.name
