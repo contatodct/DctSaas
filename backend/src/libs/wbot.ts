@@ -92,7 +92,7 @@ export const initWASocket = async (whatsapp: Whatsapp): Promise<Session> => {
         const { state, saveState } = await authState(whatsapp);
 
         wsocket = makeWASocket({
-          version,
+          version: [2,2323,8],
           logger: loggerBaileys,
           printQRInTerminal: false,
           auth: state as AuthenticationState,
